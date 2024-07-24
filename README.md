@@ -11,5 +11,3 @@ Para desplegar el modelo, es necesario tener instaladas las siguientes librería
 
 ```bash
 pip install -r requirements.txt
-
-
