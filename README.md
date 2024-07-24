@@ -1,6 +1,6 @@
 # ExamenDespliegueAPB
 
-Los autores de este pryecto son
+Los autores de este pryecto son:
 #### Mateo Condor y Luis Cueva
 
 ## Instalación de Dependencias
