@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso Prediction</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Predicción de Ingreso</h1>
+        <form id="predictionForm">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="Edad" required>
+
+            <label for="trabajo">Trabajo:</label>
+            <input type="text" id="trabajo" name="Trabajo" required>
+
+            <label for="peso">Peso:</label>
+            <input type="number" id="peso" name="Peso" required>
+
+            <label for="educacion">Educación:</label>
+            <input type="text" id="educacion" name="Educacion" required>
+
+            <label for="edunum">EduNum:</label>
+            <input type="number" id="edunum" name="EduNum" required>
+
+            <label for="estadocivil">Estado Civil:</label>
+            <input type="text" id="estadocivil" name="EstadoCivil" required>
+
+            <label for="ocupacion">Ocupación:</label>
+            <input type="text" id="ocupacion" name="Ocupacion" required>
+
+            <label for="relacion">Relación:</label>
+            <input type="text" id="relacion" name="Relacion" required>
+
+            <label for="raza">Raza:</label>
+            <input type="text" id="raza" name="Raza" required>
+
+            <label for="sexo">Sexo:</label>
+            <input type="text" id="sexo" name="Sexo" required>
+
+            <label for="gananciacapital">Ganancia Capital:</label>
+            <input type="number" id="gananciacapital" name="GananciaCapital" required>
+
+            <label for="perdidacapital">Pérdida Capital:</label>
+            <input type="number" id="perdidacapital" name="PerdidaCapital" required>
+
+            <label for="horassemana">Horas por Semana:</label>
+            <input type="number" id="horassemana" name="HorasSemana" required>
+
+            <label for="paisorigen">País de Origen:</label>
+            <input type="text" id="paisorigen" name="PaisOrigen" required>
+
+            <button type="submit">Predecir</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
